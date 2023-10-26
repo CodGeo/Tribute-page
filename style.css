@@ -94,3 +94,16 @@ blockquote {
   margin: 0 auto 50px auto;
   text-align: left;
 }
+
+.animated-gradient {
+  animation: animateBg 1.5s linear infinite;
+  background-image: linear-gradient(90deg,#f79534,#feffef,#017f60,#f79534,#feffef);
+  background-size: 400% 100%;
+}
+@keyframes animateBg {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 0%; }
+}
+
+
+
